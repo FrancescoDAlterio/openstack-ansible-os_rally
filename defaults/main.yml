@@ -63,7 +63,7 @@ rally_pip_packages:
   - morph==0.1.2
   - os-faults==0.1.17
   - positional===1.2.1
-  - pymysql # not pinned as it is in u-c
+  - pymysql==0.8.0 # not pinned as it is in u-c
   - rally==0.11.2 # 0.11.x appears to be Queens-related releases
 
 # The inventory group where Rally will be installed.
